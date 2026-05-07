@@ -13,14 +13,14 @@ Este repositorio contiene una colección de scripts desarrollados en Python dise
    ```bash
    git clone [https://github.com/TU_USUARIO/TU_REPOSITORIO.git](https://github.com/TU_USUARIO/TU_REPOSITORIO.git)
    cd TU_REPOSITORIO
-Configurar el entorno (Recomendado):
+2. **Configurar el entorno (Recomendado):**
 
-Bash
-python -m venv venv
-# En Windows:
-.\venv\Scripts\activate
-# En Linux/Mac:
-source venv/bin/activate
+   ```bash
+   python -m venv venv
+   # En Windows:
+   .\venv\Scripts\activate
+   # En Linux/Mac:
+   source venv/bin/activate
 
 
 3. **Instalar dependencias:**
