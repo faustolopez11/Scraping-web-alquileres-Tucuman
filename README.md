@@ -27,16 +27,15 @@ Este repositorio contiene una colección de scripts desarrollados en Python dise
    Asegúrate de instalar las librerías necesarias (como `requests`, `playwright` o `beautifulsoup4` según tus archivos):
    ```bash
    pip install -r requirements.txt
-   
-📂 Estructura del Proyecto
-*.py: Scripts de lógica principal para el scraping de diferentes sitios.
 
-data/: (Local) Carpeta donde se almacenan los archivos .json generados (excluida del repositorio por privacidad).
+**Estructura y Uso**
+   ```markdown
+## 📂 Estructura del Proyecto
+- `*.py`: Scripts de scraping independientes.
+- `*.json`: (Excluidos mediante .gitignore) Archivos de datos generados localmente.
+- `.gitignore`: Configuración para evitar subir datos sensibles o archivos basura de Python.
 
-🖥️ Uso Local
-Para ejecutar cualquiera de los scrapers, simplemente corre el script deseado desde la terminal:
-
-Bash
-python nombre_del_archivo.py
-⚠️ Aviso Legal (Disclaimer)
-Este proyecto tiene fines estrictamente educativos y de investigación. El autor no se hace responsable del uso indebido de estas herramientas. Se recomienda revisar los términos de servicio y el archivo robots.txt de los sitios web antes de ejecutar cualquier script para asegurar el cumplimiento legal.
+## 🖥️ Uso
+Para ejecutar los scrapers, asegúrate de estar en la raíz del proyecto y corre:
+```bash
+python nombre_de_tu_script.py
