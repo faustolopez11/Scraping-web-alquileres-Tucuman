@@ -35,7 +35,15 @@ Este repositorio contiene una colección de scripts desarrollados en Python dise
 - `*.json`: (Excluidos mediante .gitignore) Archivos de datos generados localmente.
 - `.gitignore`: Configuración para evitar subir datos sensibles o archivos basura de Python.
 
+
 ## 🖥️ Uso
 Para ejecutar los scrapers, asegúrate de estar en la raíz del proyecto y corre:
+```
+
+**Aviso Legal**
+```markdown
+## ⚠️ Aviso Legal (Disclaimer)
+Este proyecto tiene fines estrictamente **educativos**. El uso de la biblioteca **Scrapling** para interactuar con sitios de terceros debe hacerse bajo la responsabilidad del usuario, respetando los archivos `robots.txt` y los Términos y Condiciones de cada plataforma[cite: 1, 2].
 ```bash
 python nombre_de_tu_script.py
+```
