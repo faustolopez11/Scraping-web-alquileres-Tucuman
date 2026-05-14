@@ -3,7 +3,7 @@
 Este repositorio contiene una colección de scripts desarrollados en Python diseñados para la extracción automatizada de datos (web scraping) desde distintos portales web, con un enfoque en eficiencia y estructuración de datos.
 
 ## 🚀 Características
-- **Extracción multisitio:** Scripts optimizados para portales de clasificados y marketplace.
+- **Extracción multisitio:** Scripts optimizados para portales de clasificados.
 - **Salida estructurada:** Generación automática de archivos JSON para facilitar el análisis posterior.
 - **Modularidad:** Código organizado en archivos `.py` independientes para cada tarea.
 
@@ -39,8 +39,6 @@ Este repositorio contiene una colección de scripts desarrollados en Python dise
 ## 🖥️ Uso
 Para ejecutar los scrapers, asegúrate de estar en la raíz del proyecto y corre:
 ```
-
-**Aviso Legal**
 ## ⚠️ Aviso Legal (Disclaimer)
 Este proyecto tiene fines estrictamente **educativos**. El uso de la biblioteca **Scrapling** para interactuar con sitios de terceros debe hacerse bajo la responsabilidad del usuario, respetando los archivos `robots.txt` y los Términos y Condiciones de cada plataforma[cite: 1, 2].
 ```bash
